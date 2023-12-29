@@ -1,1 +1,3 @@
-console.log("pepe")
+import UI from "./modules/UI";
+
+document.addEventListener("DOMContentLoaded", UI.initializeWebsite);
